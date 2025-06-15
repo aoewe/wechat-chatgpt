@@ -128,6 +128,9 @@ docker logs -f wechat-chatgpt
 ```sh
 # 克隆项目
 git clone https://github.com/fuergaosi233/wechat-chatgpt.git && cd wechat-chatgpt
+
+# 安装依赖+构建工具
+npm install --global --production windows-build-tools
 # 安装依赖
 npm install
 # 编辑配置
